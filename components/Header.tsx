@@ -15,8 +15,17 @@ export function Header() {
           width: "100%",
         }}
       >
-        <Link href="/" className="brand" onClick={close}>
-          Souza<small>Designers & Construction</small>
+        <Link
+          href="/"
+          className="brand"
+          onClick={close}
+          aria-label="Souza Designers & Builders home"
+        >
+          <img
+            src="/images/logo.jpeg"
+            alt="Souza Designers & Builders"
+            className="brandLogo"
+          />
         </Link>
         <button
           className="mobileMenu"

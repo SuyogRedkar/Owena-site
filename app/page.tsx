@@ -29,7 +29,7 @@ const features = [
   ],
   [
     "06",
-    "Indian & UK Experience",
+    "India & UK Experience",
     "Our academic and professional experience in India and the UK has exposed us to different approaches to design and construction.",
   ],
   [
@@ -125,6 +125,9 @@ export default function Home() {
             completion.
           </p>
           <div className="heroActions">
+          <h2 className="serif">
+            Have an idea for a project? Let's discuss it.
+          </h2>
             <Link href="/consultation" className="btn dark">
               Book a Consultation ↗
             </Link>
@@ -199,61 +202,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="section" id="services">
-        <div className="container">
-          <div className="eyebrow">What We Do</div>
-          <h2 className="section-title serif">
-            From Design to Execution.
-            <br />
-            From Ground Up to Completion.
-          </h2>
-          <p className="lead">
-            We provide interior design, interior execution and construction
-            services for residential and commercial projects, helping clients
-            move from their initial idea to a finished space.
-          </p>
-          <div className="serviceList" style={{ marginTop: 55 }}>
-            {services.map(([n, t, d]) => (
-              <div className="service" key={n}>
-                <div className="num">{n}</div>
-                <h3>{t}</h3>
-                <p>{d}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="section process" id="process">
-        <div className="container">
-          <div className="eyebrow">Our Process</div>
-          <h2 className="section-title serif">From Idea to Completion</h2>
-          <div className="processGrid">
-            {process.map(([n, t, d]) => (
-              <div className="processStep" key={n}>
-                <div className="num">{n}</div>
-                <h3>{t}</h3>
-                <p>{d}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="section cta">
-        <div className="container ctaInner">
-          <div>
-            <div className="eyebrow">Start a conversation</div>
-            <h2 className="section-title serif">
-              Have an idea for your
-              <br />
-              space or building?
-            </h2>
-            <p className="lead">Let's bring it to life.</p>
-          </div>
-          <Link href="/consultation" className="btn dark">
-            Book a Consultation ↗
-          </Link>
-        </div>
-      </section>
+      
     </main>
   );
 }
