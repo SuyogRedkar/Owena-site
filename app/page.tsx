@@ -113,7 +113,7 @@ export default function Home() {
     <main>
       <section className="hero">
         <div className="heroCopy">
-          <div className="eyebrow">Souza Designers & Construction</div>
+          <div className="eyebrow">Twin Design and Build</div>
           <h1 className="serif">
             Designing Spaces.
             <br />

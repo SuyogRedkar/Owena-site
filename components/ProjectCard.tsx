@@ -6,9 +6,9 @@ export function ProjectCard({ project }: { project: Project }) {
     <Link href={`/projects/${project.slug}`} className="projectCard">
       <div className="imgWrap">
         <Image
-          src={project.image}
+          src={project.image[0]}
           alt={project.title}
-          width={1200}
+          width={1000}
           height={900}
         />
       </div>
@@ -16,7 +16,7 @@ export function ProjectCard({ project }: { project: Project }) {
         <div>
           <h3>{project.title}</h3>
           <p>
-            {project.location} · {project.type}
+           {project.type}
           </p>
         </div>
         <div className="eyebrow">View</div>

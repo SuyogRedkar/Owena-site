@@ -3,7 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
-  title: "Souza Designers & Construction",
+  title: "Twin Design and Build",
   description:
     "Interior design, execution and building construction from concept to completion.",
 };

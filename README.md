@@ -1,4 +1,4 @@
-# Souza Designers & Construction — Next.js website
+# Twin Design and Build — Next.js website
 
 A responsive brochure/portfolio website built with Next.js, TypeScript and CSS. Consultation and enquiry submissions are sent directly by email via Resend; there is no database and uploaded consultation files are not persisted by the application.
 

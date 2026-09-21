@@ -18,7 +18,7 @@ export default function Projects() {
               flexWrap: "wrap",
             }}
           >
-            <span className="btn dark">All</span>
+            <span className="btn">All</span>
             <span className="btn">Interior Design &amp; Execution</span>
             <span className="btn">Construction</span>
           </div>

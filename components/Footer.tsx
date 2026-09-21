@@ -5,9 +5,18 @@ export function Footer() {
       <div className="container">
         <div className="footerGrid">
           <div>
-            <div className="brand">
-              Souza<small>Designers & Construction</small>
-            </div>
+            <Link
+          href="/"
+          className="brand"
+          // onClick={close}
+          aria-label="Souza Designers & Builders home"
+        >
+          <img
+            src="/images/logo.jpeg"
+            alt="Souza Designers & Builders"
+            className="brandLogo"
+          />
+        </Link>
             <p>
               Interior design, execution and building construction with a
               balance of creativity, technical knowledge and practical
@@ -37,7 +46,7 @@ export function Footer() {
         </div>
         <div className="footerBottom">
           <span>
-            © {new Date().getFullYear()} Souza Designers & Construction
+            © {new Date().getFullYear()} Twin Design and Build
           </span>
           <span>Designing Spaces. Building Visions.</span>
         </div>
